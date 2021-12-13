@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F8FAFF;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    font-family: 'Source Sans Pro italic', sans-serif;
+    font-weight: 200;
+}
+
+h1{
+    position: absolute;
+    width: 287px;
+    height: 18px;
+    left: 56px;
+    top: 79px;
+    font-size: 24px;
+    line-height: 18px;
+    color:#051B68;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-style: italic;
+    color: #5799FA;
+    font-size: 1.1rem;
+    margin-top: 9px;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+main{
+    position: absolute;
+    width: 344px;
+    height: 575px;
+    left: 20px;
+    top: 146px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+section{
+    width: inherit;
+    height: 113px;
+}
+
+section img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border:black solid 1px;
+    float:left;
+    margin-right: 20px;
+}
+
+.x_button{
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #FF45B5;
+}
+
+
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+    width:100%;
+
+    font-family: 'Source Sans Pro italic', sans-serif;
+    font-weight: 200;
+    
+}

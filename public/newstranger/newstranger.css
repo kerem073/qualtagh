@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #0058D0;
+}
+
+h1,h2,h3,p{
+    font-family: 'Source Sans Pro italic', sans-serif;
+    font-weight: 200;
+    
+}
+
+h1{
+    color:white
+}
+
+button{
+    border: none;
+}
+
+#q_appearance h1{
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    top: 68px;
+    text-align: center;
+    color: white;
+}
+
+canvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    left: 40px;
+    width: 300px;
+    top:140px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+nav{
+    margin: 20px 0px;
+    white-space: nowrap;
+    overflow:auto;
+    margin-top:480px;
+}
+
+nav button{
+    /* width: 60px; */
+    border-radius: 10px;
+    
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+nav button img{
+    width:60px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    height: 157px;
+    top: 555px;
+    overflow-y: scroll;
+}
+
+section button{
+    /* width: 80px; */
+    height: 90px;
+    margin: 10px 0px;
+    border-radius: 100%;
+}
+
+section button img{
+    width:70px;
+    
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+    width:100%;
+}
+
+
+#q_conloc{
+    margin-left: 40px;
+    margin-top: 380px;
+}
+
+#q_conloc h1{
+    position: absolute;
+    left: 65px;
+    top: 68px;
+    text-align: center;
+}
+
+#q_conloc textarea{
+    font-size: 1.2rem;
+}
+
+#q_conloc h2{
+    margin-top:20px;
+    margin-bottom: 10px;;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+#q_name h1{
+    text-align: center;
+    margin-top: 68px;
+    display: block;
+}
+
+#q_name input{
+    outline:none !important;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    margin-top: 160px;
+    
+}
+
+#q_name input:focus{
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+}
+
+#q_name img{
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30px;
+}
+
+#q_saving h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+h2{
+    margin: 0;
+    color: #5799FA;
+}
+
+textarea{
+    background-color:#4189F2;
+    border-radius: 10px;
+    outline:none !important;
+    color: white;
+    padding: 8px;
+}

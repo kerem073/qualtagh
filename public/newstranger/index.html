@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="newstranger.css">
+    <link rel="stylesheet" href="../web.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Add new stranger</title>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="300" height="300"></canvas>
+    <div id="q_appearance">
+        <h1>new stranger</h1>
+
+        <nav id="navs">
+            <button id="head" onclick="navClick(this)"><img src="img/nav/nav_head.png" alt=""></button>
+            <button id="eye" onclick="navClick(this)"><img src="img/nav/nav_eyes.png" alt=""></button>
+            <button id="mouth" onclick="navClick(this)"><img src="img/nav/nav_mouth.png" alt=""></button>
+            <button id="hair" onclick="navClick(this)"><img src="img/nav/nav_hair.png" alt=""></button>
+            <button id="nose" onclick="navClick(this)"><img src="img/nav/nav_nose.png" alt=""></button>
+            <button id="shirt" onclick="navClick(this)"><img src="img/nav/nav_shirt.png" alt=""></button>
+        </nav>
+
+        <section id="tabs">
+            <button id="tab1" onclick="selectElement(this)" data-type='head1'><img
+                    src="img/tabs/tab_head1.png"></button>
+            <button id="tab2" onclick="selectElement(this)" data-type='head2'><img
+                    src="img/tabs/tab_head2.png"></button>
+            <button id="tab3" onclick="selectElement(this)" data-type='head3'><img
+                    src="img/tabs/tab_head3.png"></button>
+            <button id="tab4" onclick="selectElement(this)" data-type='head4'><img
+                    src="img/tabs/tab_head4.png"></button>
+            <button id="tab5" onclick="selectElement(this)" data-type='head5'><img
+                    src="img/tabs/tab_head5.png"></button>
+            <button id="tab6" onclick="selectElement(this)" data-type='head6'><img
+                    src="img/tabs/tab_head6.png"></button>
+            <button id="tab7" onclick="selectElement(this)" data-type='head7'><img
+                    src="img/tabs/tab_head7.png"></button>
+            <button id="tab8" onclick="selectElement(this)" data-type='head8'><img
+                    src="img/tabs/tab_head8.png"></button>
+        </section>
+
+    </div>
+
+    <div id="q_conloc" style="display:none;">
+        <h1>Converation: +10</h1>
+        <h2>Where did you meet them?</h2>
+        <textarea name="meetingplace" id="field_meetingplace" cols=20 rows="5"></textarea>
+        <h2>What did you guys talk about?</h2>
+        <textarea name="converation" id="field_converation" cols="20" rows="5"></textarea>
+    </div>
+
+    <div id="q_name" style="display: none;">
+        <h1>Name: +20</h1>
+        <input type="text" id="field_name" placeholder="'Eva' or 'Beanie girl'" value="new stranger name">
+    </div>
+
+    <div id="q_saving" style="display: none;">
+        <h1>Wanna save <span id="saved_name"></span>?</h1>
+    </div>
+
+    <div id="saved" style="display: none;">
+        <h1><span id="saved_name"></span> saved!</h1>
+    </div>
+
+
+    <div id="buttons">
+        <button id="button_back" class="back-button">&#171;</button>
+        <button id="button_next" class="button">next</button>
+    </div>
+    <script src="newstranger.js"></script>
+</body>
+
+</html>

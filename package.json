@@ -1,0 +1,19 @@
+{
+  "name": "qualtagh",
+  "version": "1.0.0",
+  "description": "An app where you can keep track on how many strangers you have mmet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stranger",
+    "Tracking"
+  ],
+  "author": "Kerem Kaya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}
